@@ -8,7 +8,7 @@ identidock:
     - dnmonster
     - redis
   volumes:
-    - C:/DevProjects/docker/identidock/app:/app
+    - ./app:/app
     
 dnmonster:
   image: amouat/dnmonster:1.0
